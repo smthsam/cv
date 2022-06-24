@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Monika's first web page</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!--The cellspacing will add space between the two columns of the table,
+    it is in percentage/pixels value in this case it is 20. In below code, table with 2 cells are
+  created, one cell will display the picture Snow Leopard 1.jpg and other cell will display the paragraph-->
+    <tr>
+      <td><img src="Snow Leopard 1.jpg" alt="Monika's profile"></td>
+      <td>
+        <h1>Monika</h1>
+        <p><em>Solution Delivery Advisor <strong><a href="https://www.amazon.in/">in Deloitte</a></strong></em></p>
+        <p>I am a QCSV consultant working in Deloitte for 4 years.
+          I specialize in the GxP projects. I have bachelor degree from Pune
+          University for Electronics and Telecommunication Engineering.</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!--This means horizontal rule, it will draw a line in web page.-->
+  <h3>Education</h3>
+  <ul>
+    <li>Army Nursery School Bengdubi</li>
+    <li>Army Public School Bengdubi</li>
+    <li>Kendriya Vidyalaya Hassan</li>
+    <li>Kendriya Vidyalaya Bengdubi</li>
+    <li><a href="https://www.aitpune.com/">Army Institute of Technology Pune</a></li>
+  </ul>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="20">
+    <!-- This table is the skills table, it will have table# 1 & 2 as it's row cells-->
+    <tr>
+      <td>
+        <table>
+          <!-- This is table# 1, it has 2 rows with skill name and rating-->
+          <tr>
+            <td>QCSV</td>
+            <td>&#11088;&#11088;&#11088;</td>
+            <!--The &#11088 is the hexadecimal unicode for the star emoticon, I took it from the mdn site or
+            some other documentation website like that.-->
+          </tr>
+          <tr>
+            <td>MS Excel</td>
+            <td>&#11088; &#11088; &#11088; &#11088;</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <!--This is table# 2, it has 2 rows with skill name and rating-->
+          <tr>
+            <td>Jira</td>
+            <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
+          </tr>
+          <tr>
+            <td>Matlab</td>
+            <td>&#11088;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contact me.html">Contact me</a>
+</body>
+
+</html>
